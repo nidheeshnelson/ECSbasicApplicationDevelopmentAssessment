@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  .container1,
+  .container6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .container2,
+  .container3,
+  .container4,
+  .container5,
+  .container7,
+  .container8 {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .container2 {
+    width: 80%;
+  }
+  .container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container4 form,
+  .container3 form {
+    display: flex;
+    flex-direction: column;
+  }
+  /* .container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container4 h1 {
+    display: block;
+    margin-bottom: 20px; 
+}
+.container4 form {
+    display: block; 
+    margin: 0 auto; 
+} */
+  .container3 button,
+  .container4 button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .container3 button:hover,
+  .container4 button:hover {
+    background-color: #555;
+  }
+  .container5 {
+    width: 80%;
+  }
+ .container7 {
+    margin-right: 3px; 
+}
+form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+  @media screen and (min-width: 768px) {
+    .container1, .container6 {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .container2,
+    .container3,
+    .container4 {
+      width: 30%;
+      margin-bottom: 0;
+    }
+    .container5 {
+      width: 80%;
+    }
+    .container6 {
+      display: row;
+      justify-content: space-between;
+    }
+    .container7,
+    .container8 {
+      width: 80%;
+    }
+  }
